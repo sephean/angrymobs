@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "angrymobs",
+  "version": "${version}",
+  "name": "Angry Mobs",
+  "description": "Les mobs passifs se defendent : tape un mouton, il te tape aussi (et ses potes aussi).",
+  "authors": ["s"],
+  "license": "MIT",
+  "icon": "assets/angrymobs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["fr.angrymobs.AngryMobs"]
+  },
+  "mixins": ["angrymobs.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
